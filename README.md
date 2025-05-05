@@ -1,5 +1,6 @@
-Code repo for the course project 'Improving reasoning in multi-agent LLMs' for the course 'Topics in AI' offered by Prof. Aditya Gopalan in spring semester, 2025.
-
+Code repo for the course project 'Improving reasoning in multi-agent LLMs' for the course 'Topics in AI' at Indian Institute of Science, Bangalore offered by Prof. Aditya Gopalan in spring semester, 2025.
+Repo contains code to simulate a two player game to understand collaboration among multiple agents (realised via LLMs ) in context of a common task. 
+We propose test metric to measure agent performance and suggest prompt variations (Chain of Thought prompting and PGM aware prompts) that induce collaboration among the agents.
 # Implementation Details
 1. Create a python environments with all libraries in requirements.txt installed, activate it.
 2. Download a fine-tuned LLM 
@@ -14,5 +15,5 @@ WARNING: This is a development server. Do not use it in a production deployment.
  * Running on http://127.0.0.1:6570
  * Running on http://10.72.243.118:6570
 ```
-5. In run_test.py, change the simulation parameters like n_rounds (duration) , n_experiments (parallel experiments)
+5. In run_test.py, change the simulation parameters like n_rounds (duration) , n_experiments (number of parallel experiments)
 6. Open new terminal, activate environment, run python new_test.py
