@@ -1,3 +1,6 @@
+Code repo for the course project 'Improving reasoning in multi-agent LLMs' for the course 'Topics in AI' offered by Prof. Aditya Goapalan in spring semester, 2025.
+
+# Implementation Details
 1. Create a python environments with all libraries in requirements.txt installed, activate it.
 2. Download a fine-tuned LLM 
 3. In api_server.py, change the MODEL_PATH to where the LLM is cached
